@@ -48,9 +48,12 @@ margin-top: 33px
 transition: 0.2s;
 }
 
-.header-button : hover {
+.header-button:hover {
 
 	box-shadow : none ;
+
+}
+  
 
 }
 header small {
@@ -169,7 +172,7 @@ margin-right: 13px;
 	-o-transition: 0.2px;
 	transition: 0.2px;
 }
-.footer-button hover{
+.footer-button:hover{
 	background-color: #fff;
 	color: #3a7dfd;
 
