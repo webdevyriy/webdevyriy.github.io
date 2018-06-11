@@ -302,6 +302,7 @@ nav a {
 
 .submenu li {
   position: relative;
+  margin: -1px;
 }
 
 .submenu li a {
@@ -368,7 +369,7 @@ nav a {
 }
 
 .shower-text {
-  padding-top: 158px;
+  padding-top: 171px;
   padding-bottom: 172px;
 }
 
@@ -454,8 +455,17 @@ nav a {
   width: 50%;
 }
 
+.cranes-two-img__hot {
+  background-color: #4b4d5c;
+  max-width: 110px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 8px 9px;
+}
+
 .cranes-two-img__text {
-  margin-top: 90px;
+  margin-top: 58px;
   width: 100%;
   max-width: 215px;
   background-color: #4b4d5c;
@@ -507,12 +517,20 @@ nav a {
   border-radius: 20px;
 }
 
+.collect-call-btn1:hover {
+  background-color: #2ccdd0;
+}
+
 .collect-call-btn2 {
   background-color: #28b8bb;
   color: #ffffff;
   font-size: 12px;
   font-weight: 400;
   border-radius: 20px;
+}
+
+.collect-call-btn2:hover {
+  background-color: #2ccdd0;
 }
 
 .ol-footer {

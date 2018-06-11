@@ -23,12 +23,14 @@
 }
 
 .dropdownlink {
+  height: 64px;
   cursor: pointer;
   display: block;
-  padding: 15px 15px 15px 21px;
+  padding-top: 15px;
+  padding-left: 15px;
   font-size: 16px;
   font-weight: 400;
-  line-height: 27px;
+  
   letter-spacing: 0.8px;
   background-color: #00647c;
   border-bottom: 1px solid #28b8bb;
@@ -39,15 +41,29 @@
 }
 .dropdownlink i {
   position: absolute;
-  top: 2px;
+  top: 14px;
   right: 0;
-  left: 255px;
+  left: 281px;
 }
 .dropdownlink .fa-chevron-down {
-  right: 12px;
-  top: 0;
-  top: 20px;  
-  left: auto;
+  color: #28b8bb;
+    font-size: 11px;
+    right: 0px;
+    top: 0px;
+    left: auto;
+    height: 63px;
+    width: 30px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    overflow: auto;
+    background-color: #2d7f94;
 }
 
 .submenuItems {

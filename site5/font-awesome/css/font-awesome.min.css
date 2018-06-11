@@ -3026,56 +3026,79 @@
  
 content: "";
 background: url(../../img/acardeon/1.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+width: 28px;
+-webkit-background-size: contain;
+background-size: contain;
+
 position: absolute;
 }
 .fa-iva2:before{
  
 content: "";
 background: url(../../img/acardeon/2.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+width: 28px;
+-webkit-background-size: contain;
+background-size: contain;
 position: absolute;
 }
 .fa-iva3:before{
  
 content: "";
 background: url(../../img/acardeon/3.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+width: 28px;
+-webkit-background-size: contain;
+background-size: contain;
 position: absolute;
 }
 .fa-iva4:before{
  
 content: "";
 background: url(../../img/acardeon/4.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+-webkit-background-size: contain;
+background-size: contain;
+width: 28px;
 position: absolute;
 }
 .fa-iva5:before{
  
 content: "";
 background: url(../../img/acardeon/5.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+-webkit-background-size: contain;
+background-size: contain;
+width: 28px;
 position: absolute;
 }
 .fa-iva6:before{
  
 content: "";
 background: url(../../img/acardeon/6.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+-webkit-background-size: contain;
+background-size: contain;
+width: 28px;
 position: absolute;
 }
 .fa-iva7:before{
  
 content: "";
 background: url(../../img/acardeon/7.svg) center no-repeat;
-height: 50px;
-width: 50px;
+height: 28px;
+width: 28px;
+-webkit-background-size: contain;
+background-size: contain;
+position: absolute;
+}
+.fa-chevron-down-castom{
+background: url(../../img/arrows.svg) center no-repeat;
+width: 28px;
+height: 28px;
+
+color: #000;
 position: absolute;
 }
 
