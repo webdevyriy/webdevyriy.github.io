@@ -517,37 +517,17 @@ nav a {
 
 .ol-footer {
   background-color: #4b4d5c;
-}
-
-.ol-footer__main {
-  display: -moz-flex;
-  display: -ms-flex;
-  display: -o-flex;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.ol-logo-text {
-  padding-top: 22px;
-  padding-bottom: 20px;
+  padding-top: 20px;
   line-height: 12px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
 }
 
-.ol-logo-text__2 {
-  line-height: 12px;
-}
-
-.ol-logo-text__3 {
-  line-height: 12px;
-}
-
-.ol-logo-text__social {
-  line-height: 12px;
+.coda {
+  background-color: #383944;
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+  padding-top: 16px;
 }
