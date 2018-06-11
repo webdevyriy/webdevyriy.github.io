@@ -1,0 +1,77 @@
+nav
+  background-color: #4b4d5c
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+  a
+    text-decoration: none
+    display: block
+    transition: .3s linear
+
+.topmenu
+   a
+    text-decoration: none
+    padding: 12px 1.5rem
+    font-size: 14px
+    font-weight: 400
+    color: #FEFDFD
+    letter-spacing: 1px
+    &.active
+      color: #fff
+      padding: 0.7em 1.5em 0.7em 1.5em
+      background-color: #28b8bb 
+      border-radius: 12px
+      line-height: 10px
+      transition: .5s linear
+      margin-left: -25px
+      &:hover
+       background-color: lighten(#28b8bb, 5%)
+     
+.submenu
+ margin-left: -24px !important
+ margin-top: 16px   
+.submenu a:hover
+  color: #ddbe86
+
+.topmenu .fa
+  margin-left: 0px
+  color: inherit
+
+.submenu
+  margin-left: 25px 
+  .fa
+    margin-left: 10rem
+                
+  position: absolute
+  z-index: 5
+  min-width: 290px
+  background: white
+  border-top: 1px solid #CBCBCC
+  border-left: 1px solid #CBCBCC
+  border-right: 1px solid #CBCBCC
+  visibility: hidden
+  opacity: 0
+  transform-origin: 0% 0%
+  transform: rotateX(-90deg)
+  transition: .3s linear
+  li
+    position: relative
+    a
+      color: #282828
+      padding: 10px 20px
+      font-size: 13px
+      border-bottom: 1px solid #CBCBCC
+  .submenu
+    position: absolute
+    left: 383px
+    top: 0
+    margin-top: 0
+    padding-top: 0
+    transition: .3s linear
+
+
+.submenu.is-active
+  transform: rotateX(2deg)
+  visibility: visible
+  opacity: 1
